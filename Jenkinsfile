@@ -1,6 +1,3 @@
-node{
-  def app
-  stage('Clone') {
-   sh 'echo $BRANCH_NAME'
-  }
+node {
+sh 'echo $BRANCH_NAME'
 }
